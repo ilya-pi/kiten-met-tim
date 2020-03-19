@@ -29,13 +29,13 @@
                             <li>snelste progressie</li>
                         </ul-->
                     </div>
-                    <div class="fl w-third pa2">
+                    <div class="fl w-100 w-third-ns pa2">
                         <div class="f3 tc pv4">2 uur les</div>
                     </div>
-                    <div class="fl w-third pa2">
+                    <div class="fl w-100 w-third-ns pa2">
                         <div class="f3 outline tc pv4">afgestemd op jouw niveau</div>
                     </div>
-                    <div class="fl w-third pa2">
+                    <div class="fl w-100 w-third-ns pa2">
                         <div class="f3 tc pv4">snelste progressie</div>
                     </div>
                 </section>

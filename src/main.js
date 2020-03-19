@@ -35,18 +35,16 @@ new Vue({
   template: `
     <div id="app" style="background-image: url(https://ilya-pi.github.io/kiten-met-tim/bg.jpg);" class="cover">
         <!--<img alt="Vue logo" src="./assets/logo.png">-->
-        <nav class="dt fixed w-100 border-box pa3 ph5-ns">
-            <a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
+        <nav class="db dt-l w-100 border-box pa3 ph5-l">
+            <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
               <img src="https://ilya-pi.github.io/kiten-met-tim/logo.svg" class="dib w2 h2 br-100" alt="Kiten Met Tim">
             </a>
-            <div class="dtc v-mid w-75 tr">
-              <router-link class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" title="Home" to="/">Home</router-link>
+            <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+              <router-link class="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Home" to="/">Home</router-link>
 
-              <router-link class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="Over mij" to="/about">Over mij</router-link>
+              <router-link class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Over mij" to="/about">Over mij</router-link>
 	      
-	      <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns ba dib mb4 ph4 pv3 br-pill" title="Inshrijven" href="mailto:bleekertim@gmail.com">Inschrijven</a>
-              <!--<a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="Store">Blog</a>
-              <a class="link dim dark-gray f6 f5-ns dib" href="#" title="Contact">Join Us</a>-->
+	      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l ba dib mb4 ph4 pv3 br-pill" title="Inshrijven" href="mailto:bleekertim@gmail.com">Inschrijven</a>
             </div>
         </nav>
 	<router-view class="view"></router-view>
